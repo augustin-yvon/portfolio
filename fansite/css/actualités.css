@@ -1,0 +1,30 @@
+/******************LEFT********************/
+main .left img{
+    border: 2px solid white;
+    box-shadow: 0px 4px 8px rgb(255 255 255/30%), 0px 12px 18px rgb(255 255 255/30%);
+}
+
+/******************CENTER********************/
+main .center article{
+    width: 80%;
+    border-radius: 40px;
+    overflow: hidden!important;
+    border: 3px solid #555;
+    text-align: left;
+    cursor: pointer;
+}
+main .center article img{
+    width: 100%;
+}
+main .center article div{
+    padding: 20px 30px;
+}
+main .center article h2{
+    padding-bottom: 15px;
+}
+
+/******************RIGHT********************/
+main .right .ps4 img{
+    width: 80%;
+    padding-bottom: 10px;
+}

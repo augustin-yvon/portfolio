@@ -1,0 +1,35 @@
+/****************************MAIN************************/
+main{
+    height: 350vh;
+}
+
+/******************LEFT********************/
+main .left img{
+    border: 2px solid white;
+    box-shadow: 0px 4px 8px rgb(255 255 255/30%), 0px 12px 18px rgb(255 255 255/30%);
+}
+
+/******************CENTER********************/
+main .center article{
+    width: 80%;
+    padding: 40px;
+    text-align: left;
+}
+main .center article h2{
+    padding: 20px 0;
+}
+main .center article .patrick-munnik{
+    text-align: center;
+    float: left;
+    width: 300px;
+    padding-right: 10px;
+}
+main .center article video{
+    width: 100%;
+}
+
+/******************RIGHT********************/
+main .right .ps4 img{
+    width: 80%;
+    padding-bottom: 10px;
+}

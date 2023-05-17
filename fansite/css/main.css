@@ -1,0 +1,167 @@
+@import url(framework.css);
+
+/****************************HEADER************************/
+header{
+    background-color: #22282F;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+}
+header a img{
+    height: 100%;
+    padding-left: 150px;
+}
+
+nav{
+    justify-content: right;
+    padding-right: 75px;
+}
+nav > div{
+    height: 100%;
+    padding: 0 40px;
+}
+nav div a{
+    color: #888;
+}
+nav div p{
+    color: #888;
+}
+nav div:hover .submenu{
+    display: inline-block;
+    z-index: 99999 !important;
+}
+.submenu{
+    display: none;
+    background-color: #2A313C;
+    border-top: #67D4C1 2px solid;
+}
+.submenu li{
+    padding: 20px;
+    color: #888;
+}
+.submenu-personnage{
+    position: absolute;
+    top: 100%;
+}
+.submenu-machine{
+    position: absolute;
+    top: 100%;
+}
+.deroulant::after{
+    content: url(..//img/flêche_developper_after.png);
+    padding-left: 5px;
+    vertical-align: -25%;
+}
+.deroulant{
+    padding-top: 5px;
+}
+
+/****************************MAIN************************/
+main{
+    background-image: url(../img/background_image_horizon_5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10vh;
+    z-index: 1;
+    color: white;
+}
+main .center{
+    padding-bottom: 10vh;
+}
+
+/******************LEFT********************/
+main .left{
+    padding-top: 5vh;
+    background: rgba(0, 0, 0, 0.7);
+    border-right: 2px solid black;
+    position: sticky;
+    left: 0;
+    top: 10vh;
+    height: 85vh;
+    width: 20vw;
+}
+main .left img{
+    margin-top: 3%;
+    margin-bottom: 13%;
+    width: 200px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+/******************CENTER********************/
+main .center > h1{
+    font-size: 5em;
+    padding-top: 2vh;
+    color: black;
+}
+main .center article{
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 3vh;
+}
+main .center article p{
+    text-align: justify;
+}
+
+/******************RIGHT********************/
+main .right{
+    padding-top: 5vh;
+    background: rgba(0, 0, 0, 0.8);
+    border-right: 2px solid black;
+    position: sticky;
+    right: 0;
+    top: 10vh;
+    height: 85vh;
+    width: 20vw;
+    gap: 5vh;
+}
+main .right a{
+    width: 60%;
+    color: white;
+}
+main .right div{
+    width: 100%;
+    border: 3px solid #67D4C1;
+    border-radius: 40px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgb(103 212 193/30%), 0px 12px 18px rgb(103 212 193/30%);
+    font-size: 20px;
+}
+main .right .pc img{
+    width: 80%;
+    padding-bottom: 10px;
+}
+main .right .ps4 img{
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+/******************FOOTER********************/
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 7vh;
+    width: 100%;
+    background-color: #22282F;
+    box-shadow: 0px -5px 10px black;
+}
+footer a{
+    cursor: auto;
+}
+footer a img{
+    height: 100%;
+    margin-left: 150px;
+    cursor: pointer;
+}
+footer ul li{
+    padding: 0 20px;
+    cursor: pointer;
+}
+footer ul{
+    cursor: auto;
+}
+footer p{
+    color: #7B7C7D;
+}

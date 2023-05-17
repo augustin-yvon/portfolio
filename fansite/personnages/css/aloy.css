@@ -1,0 +1,33 @@
+/******************LEFT********************/
+main .left img{
+    border: 2px solid white;
+    box-shadow: 0px 4px 8px rgb(255 255 255/30%), 0px 12px 18px rgb(255 255 255/30%);
+}
+
+/******************CENTER********************/
+main .center article{
+    width: 80%;
+    padding: 20px 50px;
+}
+
+.aloy{
+    text-align: center;
+    float: right;
+    width: 200px;
+    padding-left: 10px;
+}
+main .center article h2{
+    text-align: left;
+    padding: 20px 0;
+}
+main .center article h3{
+    text-align: left;
+    padding: 10px 0;
+}
+main .center article ul{
+    list-style-type: disc;
+    text-align: left;
+}
+main .center article ul li{
+    padding: 10px 0;
+}

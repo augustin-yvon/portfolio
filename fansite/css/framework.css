@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Horizon;
+    src: url("../fonts/Horizon-nMeM.ttf");
+}
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+/****************************FRAMEWORK************************/
+html, body {
+    width: 100% !important;
+    height: 100% !important;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+h3{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.box{
+    box-shadow: 0px 4px 8px rgb(0 0 0/10%), 0px 12px 18px rgb(0 0 0/10%);
+}
+
+.font-horizon{
+    font-family: Horizon;
+}
+
+/*******************FLEX*********************/
+.flex{
+    display: flex;
+}
+.flex1{
+    flex: 1;
+}
+.flex2{
+    flex: 2;
+}
+.flex3{
+    flex: 3;
+}
+.flex4{
+    flex: 4;
+}
+.fdc{
+    flex-direction: column;
+}
+.fdr{
+    flex-direction: row;
+}
+.jcc{
+    justify-content: center;
+}
+.aic{
+    align-items: center;
+}
+.tac{
+    text-align: center;
+}
+
+/*******************POSITION*********************/
+.fixed{
+    position: fixed;
+}

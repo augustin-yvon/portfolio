@@ -1,0 +1,18 @@
+/******************LEFT********************/
+main .left .map{
+    border: 2px solid #67D4C1;
+    box-shadow: 0px 4px 8px rgb(103 212 193/30%), 0px 12px 18px rgb(103 212 193/30%);
+}
+.creuset,.armure{
+    border: 2px solid white;
+    box-shadow: 0px 4px 8px rgb(255 255 255/30%), 0px 12px 18px rgb(255 255 255/30%);
+}
+
+/******************CENTER********************/
+main .center article{
+    width: 93%;
+    padding: 20px 0;
+}
+main .center article img{
+    width: 95%;
+}
