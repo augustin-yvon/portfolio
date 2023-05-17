@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="img/favicon-horizon.png" />
+        <title>Contact - Horizon Zera Dawn</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/contact.css">
+    </head>
+    <body>
+        <header class="flex box">
+            <a class="flex1" href="index.html">
+                <img src="img/logo_horizon_blanc.png" alt="logo_horizon_blanc">
+            </a>
+            <nav class="flex flex1 aic">
+                <div class="flex aic">
+                    <a href="actualités.html">Actualités</a>
+                </div>
+                <div class="flex aic">
+                    <p class="deroulant">Personnages</p>
+                    <div class="submenu submenu-personnage">
+                        <ul>
+                            <li onclick="window.location.href ='personnages/aloy.html'">Aloy</li>
+                            <li onclick="window.location.href ='personnages/rost.html'">Rost</li>
+                            <li onclick="window.location.href ='personnages/erend.html'">Erend</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex aic">
+                    <p class="deroulant">Machines</p>
+                    <div class="submenu submenu-machine">
+                        <ul>
+                            <li onclick="window.location.href ='machine/acquisition.html'">Machines d'acquisition</li>
+                            <li onclick="window.location.href ='machine/reconnaissance.html'">Machines de reconnaissance</li>
+                            <li onclick="window.location.href ='machine/combat.html'">Machines de combat</li>
+                            <li onclick="window.location.href ='machine/transport.html'">Machines de transport</li>
+                            <li onclick="window.location.href ='machine/char.html'">Machines de la gamme Char</li>
+                            <li onclick="window.location.href ='machine/autres_machine.html'">Autres machines</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex aic">
+                    <a href="contact.html">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <main class="flex tac">
+            <div class="left font-horizon flex1">
+                <section>
+                    <h2>La Map</h2>
+                    <img onclick="window.location.href ='map.html'" src="img/map.jpg" alt="carte de horizon zero dawn sur fond noir">
+                </section>
+                <section>
+                    <h2>Les creusets</h2>
+                    <img onclick="window.location.href ='creuset.html'" src="img/creuset.jpg" alt="intérieur d'une creuset">
+                </section>
+                <section>
+                    <h2>L’armure antique</h2>
+                    <img onclick="window.location.href ='armure.html'" src="img/armure_antique.jpg" alt="armure antique">
+                </section>
+            </div>
+
+            <div class="center flex fdc aic flex3">
+                <h1 class="font-horizon">Contact</h1>
+                <article>
+                    <p>Si vous avez apprécié mon site et que vous aimeriez participer à son évolution, vous pouvez me contacter via ce formulaire, je me ferais un plaisir de vous répondre.</p>
+                    <form action="">
+                        <label for="fname">Nom & prénom</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+                    
+                        <label for="sujet">Sujet</label>
+                        <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+                    
+                        <label for="emailAddress">Email</label>
+                        <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+                    
+                    
+                        <label for="subject">Message</label>
+                        <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Envoyer">
+                    </form>
+                </article>
+            </div>
+
+            <div class="right flex1 flex fdc aic">
+                <h2 class="font-horizon">Acheter le jeu</h2>
+                <a href="https://www.instant-gaming.com/fr/6202-acheter-horizon-zero-dawn-complete-edition-pc-jeu-steam/?igr=fr-FR" target="_blank">
+                    <div class="pc box">
+                        <img src="img/horizon-for-pc.jpg" alt="image horizon zero dawn complete edition">
+                        <p>Horizon Zero Dawn Complete Edition sur Steam -70% !!!</p>
+                    </div>
+                </a>
+                <a href="https://www.amazon.fr/Horizon-Zero-Dawn-Complete-PS4/dp/B077SBGNXH/ref=dp_fod_3?pd_rd_w=i0y1P&content-id=amzn1.sym.fc22af65-1cc2-401e-8a29-955ce1efe8ab&pf_rd_p=fc22af65-1cc2-401e-8a29-955ce1efe8ab&pf_rd_r=G27DJ88Y7S48CQR9EFFN&pd_rd_wg=UoX0p&pd_rd_r=142eff63-79c6-47aa-b49a-29e6b1894ef8&pd_rd_i=B077SBGNXH&psc=1" target="_blank">
+                    <div class="ps4 box">
+                        <img src="img/horizon-for-ps4.webp" alt="jeu ps4 horizon zero dawn complete edition">
+                        <p>Horizon: Zero Dawn - Complete Edition PS4 - Amazon</p>
+                    </div>
+                </a>
+            </div>
+        </main>
+
+        <footer class="flex">
+            <a class="flex1" href="index.html">
+                <img src="img/logo_horizon_blanc.png" alt="logo_horizon_blanc">
+            </a>
+            <ul class="flex1 flex aic jcc">
+                <li><img src="img/icons8-facebook-32.png" alt="logo facebook"></li>
+                <li><img src="img/icons8-instagram-3d-fluency-32.png" alt="logo instagram"></li>
+                <li><img src="img/icons8-github-ios-16-filled-32.png" alt="logo github"></li>
+            </ul>
+            <p class="flex1 flex aic jcc">
+                © 2022. Tous droits réservés.
+            </p>
+        </footer>
+    </body>
+</html>

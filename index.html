@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Augustin Yvon | Portfolio</title>
+
+    <meta name="description" content="Portfolio" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="./assets/ico/favicon.ico">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img src="./assets/cv/pp_2.png" alt="Augustin Yvon Logo image" class="header__logo-img"/>
+          </div>
+
+          <span class="header__logo-sub">Augustin Yvon</span>
+        </div>
+
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper"><a href="./index.html#accueil" class="header__link"> Accueil </a></li>
+            <li class="header__link-wrapper"><a href="./index.html#about" class="header__link"> Qui suis-je ? </a></li>
+            <li class="header__link-wrapper"><a href="./index.html#projects" class="header__link"> Projets </a></li>
+            <li class="header__link-wrapper"><a href="./index.html#contact" class="header__link"> Contact </a></li>
+          </ul>
+
+          <div class="header__main-ham-menu-cont">
+            <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu"/>
+            <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close" class="header__main-ham-menu-close d-none"/>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link"><a href="./index.html#accueil"> Accueil </a></li>
+            <li class="header__sm-menu-link"><a href="./index.html#about"> Qui suis-je ? </a></li>
+            <li class="header__sm-menu-link"><a href="./index.html#projects"> Projets </a></li>
+            <li class="header__sm-menu-link"><a href="./index.html#contact"> Contact </a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section id="accueil" class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">développeur web frontend</h1>
+
+        <div class="home-hero__info"></div>
+        
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Projets</a>
+        </div>
+      </div>
+
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a target="_blank" href="https://www.linkedin.com/in/augustin-yvon/" class="home-hero__social-icon-link">
+            <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon"/>
+          </a>
+        </div>
+
+        <div class="home-hero__social">
+          <a target="_blank" href="https://github.com/augustin-yvon" class="home-hero__social-icon-link">
+            <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon"/>
+          </a>
+        </div>
+      </div>
+
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Qui suis-je ?</span>
+
+          <span class="heading-sec__sub">
+            J'ai réalisé ce portfolio pour que vous puissiez consulter certains de mes projets personnels afin de 
+            voir concrètement mes compétences et mon experience en développement web.
+          </span>
+        </h2>
+
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Mon profil !</h3>
+
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Bonjour, je suis <strong>Augustin Yvon</strong>, j'ai 18 ans et <strong>j'étudie à Marseille</strong>. Passioné
+                d'informatique depuis petit, je me dirige vers le développement web à travers mon Bachelor IT à la Plateforme
+                dans l'optique de devenir développeur Full-Stack. En parrallèle, j'ai acquis de solides bases en programmation qui me
+                permettront bientôt de développer le parti Backend des site web.
+              </p>
+
+              <p class="about__content-details-para">
+                <strong>En septembre 2023</strong> je me spécialise en <strong>développement web</strong> et suis prêt à apporter 
+                mes compétences à votre entreprise lors de ma 2ème année et 3ème de Bachelor en <strong>alternance à Marseille.</strong>
+              </p>
+              
+              <p class="about__content-details-para">
+                N'hésitez pas à me <strong>contacter</strong> par 
+                <a class="hrefAccueil" title="Copier l'adresse mail"  onclick="copyToClipboard('augustin.yvon@laplateforme.io')">email</a> ou par
+                <a class="hrefAccueil" title="Copier le numéro" onclick="copyToClipboard('0767353793')">téléphone</a> !
+              </p>
+            </div>
+            
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
+
+            <div class="about__content-skills">
+              <div class="space"></div>
+
+              <h3 class="about__content-title">Mes compétences</h3>
+
+              <div class="skills">
+                <div class="skills__skill" data-summary="Permet de structurer le contenu d'une page web en utilisant des balises">HTML</div>
+                <div class="skills__skill" data-summary="Permet styliser et mettre en forme les éléments d'une page web en appliquant des règles de style.">CSS</div>
+                <div class="skills__skill" data-summary="Langage de programmation polyvalent pour diverses applications, y compris l'IA et l'analyse de données.">PYTHON</div>
+                <div class="skills__skill" data-summary="Langage de programmation pour gérer les bases de données.">SQL</div>
+                <div class="skills__skill" data-summary="Éditeur de graphiques vectoriels et outil de maquettage, principalement basé sur le web.">Figma</div>
+                <div class="skills__skill" data-summary="Plateforme pour stocker et collaborer sur des projets informatiques entre developpeurs.">GITHUB</div>
+              </div>
+
+              <h3 class="about__content-title">En cours d"apprentissage</h3>
+
+              <div class="skills">
+                <div class="skills__skill" data-summary="langage de programmation pour ajouter des fonctionnalités interactives et dynamiques aux pages web.">JAVASCRIPT</div>
+                <div class="skills__skill" data-summary="langage de programmation côté serveur pour intéragir avec des bases de données.">PHP</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about__content-skills">
+
+            <div class="containerCV">
+              <div class="cv_photo zoomable" style="background-image: url('assets/cv/CV.jpg');"></div>
+
+              <div class="cv_button">
+                <a class="btn btn--med btn--theme dynamicBgClr" href="assets/cv/CV.pdf" download>Télécharger mon CV</a>
+              </div>
+            </div>
+
+            <div class="arrow"></div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">MES Projets</span>
+
+          <span class="heading-sec__sub">
+            Voici différents projets que j'ai réalisés pendant mes études ou en autodidacte.
+            <!-- 
+            <a class="hrefAccueil" target="_blank" href="https://www.udemy.com/">Udemy</a> et 
+            <a class="hrefAccueil" target="_blank" href="https://openclassrooms.com/">OpenClassrooms</a>.
+            -->
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <span class="heading-sec__main category">HTML, CSS</span>
+
+          <div id="fansite" class="projects__row">
+            <div class="projects__row-img-cont">
+              <img src="./assets/fansite/fansite-homepage.PNG" alt="Software Screenshot" class="projects__row-img" loading="lazy"/>
+            </div>
+
+            <div class="projects__row-content zoomable">
+              <h3 class="projects__row-content-title">Fansite</h3>
+
+              <p class="projects__row-content-desc">
+                Ce projet, codé uniquement en HTML et CSS, permet de consolider ses connaissances en travaillant sur un thème
+                passionant : celui dont on est fan !
+              </p>
+
+              <a href="./fansite.html" class="btn btn--med btn--theme dynamicBgClr">En savoir +</a>
+            </div>
+          </div>
+
+          <span class="heading-sec__main category">HTML, CSS</span>
+
+          <div id="Tahiti" class="projects__row">
+            <div class="projects__row-img-cont">
+              <img src="./assets/voyage/voyage-show-versions.jpg" alt="Software Screenshot" class="projects__row-img" loading="lazy"/>
+            </div>
+
+            <div class="projects__row-content zoomable">
+              <h3 class="projects__row-content-title">Page d'accueil d'un site de voyage</h3>
+
+              <p class="projects__row-content-desc">
+                Découvrez quelques paysages de Tahiti à travers site vitrine d'office 
+                de tourisme codé en HTML et CSS avec une version mobile.
+              </p>
+
+              <a href="./tahiti.html" class="btn btn--med btn--theme dynamicBgClr">En savoir +</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+
+          <span class="heading-sec__sub heading-sec__sub--lt">Cliquez sur les boutons ci-dessous pour m'envoyer un message</span>
+
+          <p class="fleche"></p>
+    
+          <div class="contact-container-button">
+            <a class="buttonContact" href="tel:0683838338">07 67 35 37 93</a>
+            <a class="buttonContact" href="mailto:limandribaptiste@gmail.com">augustin-yvon@laplateforme.io</a>
+            <a class="buttonContact" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/augustin-yvon/">Mon profil LinkedIn</a>
+          </div>
+        </h2>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>ME CONTACTER</span>
+            </h2>
+
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/augustin-yvon/">
+                <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon"/>
+              </a>
+
+              <a target="_blank" rel="noreferrer" href="https://github.com/augustin-yvon">
+                <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon"/>
+              </a>
+            </div>
+
+            <ul>
+              <li class="main-footer__short-desc">Tel: <a href="tel:0683838338">07 67 35 37 93</a></li>
+              <li class="main-footer__short-desc">Mail: <a href="mailto:augustin.yvon@laplateforme.io">augustin.yvon@laplateforme.io</a></li>
+            </ul>
+          </div>
+
+          <div class="main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">augustin yvon</h4>
+
+            <p class="main-footer__short-desc">
+              En 1ème année d'un bachelor de développement web Full Stack, je peux construire le Frontend et bientôt le Backend 
+              d'un site web.
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">&copy; Copyright 2023. Codé par Augustin Yvon depuis le code Open-Source de 
+          <a rel="noreferrer" target="_blank" href="https://dev.to/rammcodes/i-created-an-opensource-portfolio-template-for-developers-1ij9">Ram Maheshwari</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
