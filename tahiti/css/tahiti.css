@@ -1,0 +1,337 @@
+@import url(framework.css);
+/************************HEADER************************/
+header{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #111E4A;
+    width: 100%;
+    height: 7vh;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgb(0 0 0/10%), 0px 12px 18px rgb(0 0 0/10%);
+    position: fixed;
+}
+
+header a{
+    color: #888;
+}
+
+header div a img{
+    width: 40px;
+}
+
+.submenu{
+    background-color: #111E4A;
+    border-top: #c57308 2px solid;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    top: 7vh;
+}
+
+.submenu ul{
+    list-style: none;
+    padding: 0;
+}
+
+.submenu li{
+    padding: 20px;
+}
+
+.deroulant::after{
+    content: url(../img/flêche_developper_after.png);
+    padding-left: 5px;
+    vertical-align: -18%;
+}
+
+.deroulant{
+    padding-top: 5px;
+}
+
+nav{
+    gap: 10vw;
+    display: flex;
+    justify-content: center;
+}
+
+nav > div{
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center; 
+}
+
+nav div:hover .submenu{
+    display: inline-block;
+    z-index: 99999 !important;
+}
+
+/************************NAV-LEFT************************/
+.nav-left ul{
+    background-color: #279989;
+    position: fixed;
+    top: 35vh;
+    right: 0;
+    width: 50px;
+    z-index: 999;
+    transition: all 250ms ease-in-out;
+}
+
+.nav-left ul:hover .nav-left ul li a{
+    transition: visibility 0s linear 0s,opacity 250ms;
+}
+
+.nav-left ul:hover{
+    width: 255px;
+    color: white;
+}
+
+.nav-left ul:hover .nav-left-a{
+    color: white;
+}
+
+.nav-left ul li:hover{
+    transition: all 250ms ease-in-out;
+    background-color: #1d7065;
+    margin-left: -15px;
+    border-color: #1d7065;
+}
+
+.nav-left ul li a{
+    color: transparent;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 18px;
+    white-space: nowrap;
+}
+
+.nav-left ul li img{
+    display: block;
+    position: fixed;
+    right: 9px;
+    width: auto;
+    margin-top: -41px;
+    height: 30px;
+    pointer-events: none;
+    padding-top: 2px;
+}
+
+/************************HERO************************/
+main{
+    margin-top: 7vh
+}
+.hero{
+    background-image: url(../img/tahiti-background-image.jpg);
+    background-size: cover;
+    height: 93vh;
+}
+.hero h1{
+    color: #ef9d0f;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 2px black;
+}
+
+/************************DECOUVERTE************************/
+.decouverte{
+    width: 75%;
+    margin: auto;
+    gap: 10px;
+    padding-bottom: 5vh;
+}
+.decouverte h1{
+    font-size: 2em;
+    padding-bottom: 5px;
+}
+.decouverte p{
+    text-align: justify;
+}
+
+
+.a-propos{
+    background-color: #b6cdec;
+    padding: 10vh 0;
+    gap: 7vh;
+}
+.a-propos-mobile{
+    display: none;
+}
+.a-propos h1{
+    color: #1A4EDA;
+    font-size: 3em;
+    font-weight: lighter;
+    font-family: goudy;
+}
+
+/************************A-PROPOS************************/
+.a-propos ul{
+    gap: 10vw;
+}
+.a-propos ul li p:nth-child(1){
+    font-weight: bolder;
+    font-size: 20px;
+}
+.a-propos ul li img{
+    width: 100px;
+}
+.flip-card {
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
+    perspective: 1000px; 
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+}
+.flip-card-front {
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #b6cdec;
+    color: #279989;
+    font-size: 20px;
+    transform: rotateY(180deg); 
+}
+
+/************************A VOIR************************/
+.a-voir{
+    padding: 5vh 0;
+    gap: 3px;
+    scroll-behavior: smooth;
+}
+.a-voir > div{
+    width: 90%;
+}
+.a-voir > div > h1{
+    padding-bottom: 10px;
+    font-size: 2.5em;
+    color: #041e42;
+}
+.a-voir > div > div{
+    gap: 1vw;
+}
+.a-voir > div > div img{
+    width: 40vw;
+}
+.a-voir > div > div p{
+    font-size: 1.2em;
+    text-align: justify;
+}
+.teahupoo{
+    border-bottom: 2px solid #104794;
+    padding-bottom: 10px;
+}
+.maroto{
+    border-top: 2px solid #104794;
+    padding-top: 10px;
+    border-bottom: 2px solid #104794;
+    padding-bottom: 10px;
+}
+.maroto-mobile{
+    display: none;
+}
+.pointe-venus{
+    border-top: 2px solid #104794;
+    padding-top: 10px;
+}
+
+
+/************************FOOTER************************/
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #041e42;
+    color: #888;
+}
+
+/************************MEDIA QUERIES************************/
+@media screen and (max-width: 710px){
+    header{
+        height: 5.5vh;
+        font-size: 0.85em;
+        top: 0;
+    }
+    header div a img{
+        width: 30px;
+    }
+    .submenu{
+        top: 5.5vh;
+    }
+    .nav-left{
+        display: none;
+    }
+    main {
+        margin-top: 5.5vh;
+    }
+    .hero h1{
+        text-align: center;
+    }
+    .decouverte{
+        flex-direction: column;
+        width: 95%;
+    }
+    .decouverte h1{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .decouverte img{
+        width: 100%;
+    }
+    .a-propos ul{
+        flex-direction: column;
+    }
+    .a-propos-desktop{
+        display: none;
+    }
+    .a-propos-mobile{
+        display: flex;
+        color: #279989;
+    }
+    .a-propos-mobile li{
+        gap: 5px;
+    }
+    .a-voir > div{
+        width: 95%;
+    }
+    .a-voir div div{
+        flex-direction: column;
+    }
+    .a-voir div div img{
+        width: 100%;
+    }
+    .maroto-desktop{
+        display: none;
+    }
+    .maroto-mobile{
+        display: block;
+    }
+    footer{
+        height: 7vh;
+    }
+}
+
