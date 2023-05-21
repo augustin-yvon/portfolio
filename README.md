@@ -37,8 +37,3 @@ window.addEventListener('scroll', () => {
 Grâce à l'ajout de ces animations, j'ai pu apporter une touche dynamique et immersive à l'expérience 
 utilisateur, rendant ainsi le site plus interactif et captivant. Je suis ravi d'avoir pu explorer et utiliser les possibilités offertes par JavaScript dans 
 ce projet, ce qui a enrichi ma palette de compétences en développement web.
-
-## Contact
-
-- Email : augustin.yvon@laplateforme.io
-- GitHub : [augustin-yvon](https://github.com/augustin-yvon)
