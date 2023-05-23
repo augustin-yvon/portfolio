@@ -5,7 +5,7 @@ développement web.
 
 ## Documentation
 
-Il s'agit du premier site web dans lequel j'utilise du Javascript, cela m'a permis de créer diverses animations, telles que les projets qui 
+J'ai utilisé Javascript pour créer diverses animations, telles que les projets qui 
 sortent de la gauche de l'écran en glissant lorsqu'on scroll.
 
 #### Voici le code pour cette action : 
@@ -35,5 +35,4 @@ window.addEventListener('scroll', () => {
 });
 ```
 Grâce à l'ajout de ces animations, j'ai pu apporter une touche dynamique et immersive à l'expérience 
-utilisateur, rendant ainsi le site plus interactif et captivant. Je suis ravi d'avoir pu explorer et utiliser les possibilités offertes par JavaScript dans 
-ce projet, ce qui a enrichi ma palette de compétences en développement web.
+utilisateur, rendant ainsi le site plus interactif et captivant.
