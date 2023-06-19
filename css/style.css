@@ -482,7 +482,7 @@ body {
   padding: 10px;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  min-width: 100px;
+  min-width: 130px;
 }
 
 .skills__skill:hover:before {

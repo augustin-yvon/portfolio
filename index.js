@@ -196,6 +196,9 @@ var competences = {
   },
   FIGMA: {
     summary: "Éditeur de graphiques vectoriels et outil de maquettage, principalement basé sur le web.",
+  },
+  PLESK: {
+    summary: "Plateforme de gestion de serveurs web offrant une interface intuitive pour administrer et gérer des sites.",
   }
 };
 
