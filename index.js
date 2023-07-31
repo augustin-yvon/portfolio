@@ -199,6 +199,9 @@ var competences = {
   },
   PLESK: {
     summary: "Plateforme de gestion de serveurs web offrant une interface intuitive pour administrer et gérer des sites.",
+  },
+  REACTJS: {
+    summary: "Bibliothèque JavaScript pour construire des interfaces utilisateur.",
   }
 };
 
