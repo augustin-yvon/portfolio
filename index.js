@@ -202,6 +202,9 @@ var competences = {
   },
   REACTJS: {
     summary: "Bibliothèque JavaScript pour construire des interfaces utilisateur.",
+  },
+  GIT: {
+    summary: "Système de contrôle de version pour suivre les modifications de fichiers sur les projets de développement informatique.",
   }
 };
 
